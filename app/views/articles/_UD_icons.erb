@@ -1,0 +1,5 @@
+<div>
+  <%= link_to edit_article_path(@article) do %><i class="fa-sharp fa-solid fa-pencil"></i><% end %>
+  |
+  <%= link_to article_path(@article), data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } do %><i class="fa-sharp fa-solid fa-trash"></i><% end %>
+</div>
