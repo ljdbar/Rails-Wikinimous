@@ -1,0 +1,21 @@
+.form-label {
+  font-weight: 600;
+}
+
+.form-actions {
+  .btn {
+    border: 1px solid rgba(34, 34, 34, 0.5);
+  }
+
+  .btn:hover {
+    background-color: rgb(222, 217, 217);
+  }
+}
+
+.form-control {
+  font-weight: 300;
+}
+
+textarea.form-control {
+  min-height: calc(10.5em + 0.75rem + 2px)
+}

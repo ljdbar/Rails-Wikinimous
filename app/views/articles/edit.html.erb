@@ -6,9 +6,14 @@
   <%= render "form", article: @article %>
 
   <br>
-
-  <div>
-    <%= link_to "Show this article", @article %> |
-    <%= link_to "Back to articles", root_path %>
+  <div class="d-flex">
+    <div class="fa-sharp">
+      <%= link_to "Show this article", @article %>
+    </div>
+    <div class="px-2">|
+    </div>
+    <div class="fa-sharp">
+      <%= link_to "Back to articles", root_path %>
+    </div>
   </div>
 </div>
