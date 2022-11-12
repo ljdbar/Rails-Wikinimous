@@ -1,7 +1,9 @@
 <div id="<%= dom_id article %>">
-  <p>
-    <strong><%= article.title %></strong>
-  </p>
+  <div class="d-flex align-items-center">
+    <h1><strong><%= article.title %></strong></h1>
+    <%= render "UD_icons" %>
+  </div>
+
 
   <p>
     <%= article.body %>
